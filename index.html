@@ -4,33 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OptimusTech</title>
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/pages.css">
+    <link rel="stylesheet" href="src/css/coponentes.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
 <body>
     <header>
+        
+        
         <nav id="navbar">
-            <div id="logo__nav"></div>
-
+            <div id="logo__nav">
+                <img src="src/imagens/worldwide 1 (Traced).png" alt="Logo da OptimusTech">
+                <span id="logo__titulo">OptimusTech</span>
+            </div>
+        
             <ul id="nav__list">
-                <li class="nav__item">Home</li>
-                <li class="nav__item">Produtos</li>
-                <li class="nav__item">Recursos</li>
-                <li class="nav__item">Sobre nós</li>
+                <li class="nav__item"><a href="#">Home</a></li>
+                <li class="nav__item"><a href="#">Produtos</a></li>
+                <li class="nav__item"><a href="#">Recursos</a></li>
+                <li class="nav__item"><a href="#">Sobre nós</a></li>
             </ul>
             
-            <button class="btn-entrar">Entrar</button>
-            <button class="btn-cadastrar">Cadastrar</button>
+            <div id="btns-header">
+                <button class="btn-entrar"><a href="#">Entrar</a></button>
+                <button class="btn-cadastrar"><a href="#">Cadastrar</a></button>
+            </div>
 
-            <button id="btn-menu"></button>
+            <button id="btn-menu"><i class="fa-solid fa-bars"></i></button>
         </nav>
 
-        <div class="navbar__mobile">
+        <div id="navbar__mobile">
             <ul id="mobile-nav__list">
-                <li class="nav__item">Home</li>
-                <li class="nav__item">Produtos</li>
-                <li class="nav__item">Recursos</li>
-                <li class="nav__item">Sobre nós</li>
+                <li class="nav__item"><a href="#">Home</a></li>
+                <li class="nav__item"><a href="#">Produtos</a></li>
+                <li class="nav__item"><a href="#">Recursos</a></li>
+                <li class="nav__item"><a href="#">Sobre nós</a></li>
             </ul>
         </div>        
     </header>
+
+    <script src="src/script/script.js"></script>
 </body>
 </html>
